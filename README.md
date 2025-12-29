@@ -1,4 +1,4 @@
-# AI Call Summary & Lead Tracker (Offline & Free)
+# AI Call Summary & Lead Tracker 
 
 ## 📌 Overview
 This project is an end-to-end AI system that analyzes customer call recordings and automatically generates structured insights such as call summaries, customer intent, and lead classification (Hot/Warm/Cold).
