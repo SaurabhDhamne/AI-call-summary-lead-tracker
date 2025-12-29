@@ -30,3 +30,94 @@ The system is designed to work with **real WhatsApp call recordings (AAC/M4A)** 
 ---
 
 ## 🏗️ System Architecture
+
++-------------------------------+
+|  Call Recording               |
+|  (AAC / M4A / MP3 - WhatsApp) |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Speech-to-Text               |
+|  Whisper (Multilingual ASR)   |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  NLP Processing               |
+|  - Call Summary               |
+|  - Intent Detection           |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Lead Classification          |
+|  Hot / Warm / Cold            |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Google Sheets Storage        |
+|  (Automatic Logging)          |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Analytics & Visualization    |
+|  Lead Distribution Bar Chart  |
++-------------------------------+
+
+
+---
+
+## 📂 Supported Call Types
+- Sales inquiry calls  
+- Customer support calls  
+- Complaint calls  
+- Follow-up and purchase confirmation calls  
+- Multilingual calls (English, Hindi, Hinglish, regional languages)
+
+---
+
+## ▶️ How to Run the Project
+1. Open the notebook in **Google Colab**
+2. Install required libraries
+3. Authenticate Google access for Sheets
+4. Upload a call recording (AAC/M4A/MP3)
+5. Run the notebook cells
+6. Launch the Gradio dashboard
+7. View call insights and lead analytics
+
+---
+
+## 📊 Output Generated
+For each call, the system generates:
+- Call transcript  
+- Short call summary  
+- Detected customer intent  
+- Lead type (Hot / Warm / Cold)  
+- Entry saved automatically in Google Sheets  
+- Updated lead distribution plot  
+
+---
+
+## 🎓 Project Highlights
+- Fully **offline and cost-free** AI solution  
+- Works with **real-world WhatsApp audio data**  
+- Designed with **business and CRM use cases** in mind  
+- Easy to extend with sentiment analysis or CRM integration  
+
+---
+
+## 🔮 Future Enhancements
+- Sentiment analysis (positive / neutral / negative)  
+- Call quality scoring  
+- CRM integration  
+- Automated WhatsApp or email follow-ups  
+
+---
+
+## 👤 Author
+Saurabh Narendra Dhamne
+B.Tech – Artificial Intelligence and data Science
+
